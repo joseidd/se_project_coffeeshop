@@ -16,6 +16,11 @@
   gap: 20px;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+  transition: 0.2s;
+}
+
 .nav__link {
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
