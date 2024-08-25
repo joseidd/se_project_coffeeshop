@@ -34,6 +34,7 @@
   line-height: 20px;
   background-color: #1878dc;
   color: #fff;
+  transition: background-color 0.3s ease;
 }
 
 .form__button:hover {
@@ -54,4 +55,12 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+}
+
+.form__label {
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
 }
