@@ -6,8 +6,8 @@
   position: relative;
   box-sizing: border-box;
   background-image: url(../images/background_header.svg);
-  position: relative;
   background-size: cover;
+  z-index: 1;
 }
 
 .header__title {
@@ -17,7 +17,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
-  margin: 103px 0 0;
+  margin: 183px 0 0;
 }
 
 .header__span-accent {
@@ -42,15 +42,13 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
   margin-top: auto;
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
